@@ -41,7 +41,6 @@ This template is designed to be a single-screen website. Yet you still can add m
 Currently, this project contains several plugins:
 - [Astro + Tailwind](https://docs.astro.build/en/guides/integrations-guide/tailwind/);
 - [Astro Compress](https://github.com/astro-community/AstroCompress#readme);
-- [Astro Sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/);
 - [Astro Robots](https://github.com/alextim/astro-lib/tree/main/packages/astro-robots-txt#readme);
 
 ## Help
