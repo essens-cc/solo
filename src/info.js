@@ -9,15 +9,15 @@ export const i = {
     featuredWork: [
         {
             title: "Company X",
-            dates: "2010-2015"
+            dates: "2010 — 2015"
         },
         {
             title: "Company Y",
-            dates: "2015-2020"
+            dates: "2015 — 2020"
         },
         {
             title: "Company Z",
-            dates: "2020-now"
+            dates: "2020 — now"
         },
     ],
     recentProjects: [

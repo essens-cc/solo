@@ -7,6 +7,9 @@ export default {
 				suisse: ["SuisseIntl-Book"],
 			  },
 		},
+		backgroundImage: {
+			"gradient": "linear-gradient(to top right, #0052D4, #4364F7, #6FB1FC)"
+		},
 	},
 	plugins: [],
 }
