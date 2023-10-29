@@ -59,32 +59,59 @@ export const i = {
             }
         },
         {
-            title: "X",
+            title: "Mastodon",
             url: "https://google.com",
             alt: "X logo",
             images: {
-                dark: "../src/assets/social/dark/x.svg",
-                light: "../src/assets/social/light/x.svg",
+                dark: "../src/assets/social/dark/mt.svg",
+                light: "../src/assets/social/light/mt.svg",
             }
         },
         {
-            title: "X",
+            title: "Telegram",
             url: "https://google.com",
             alt: "X logo",
             images: {
-                dark: "../src/assets/social/dark/x.svg",
-                light: "../src/assets/social/light/x.svg",
+                dark: "../src/assets/social/dark/tg.svg",
+                light: "../src/assets/social/light/tg.svg",
             }
         },
         {
-            title: "X",
+            title: "Facebook",
             url: "https://google.com",
             alt: "X logo",
             images: {
-                dark: "../src/assets/social/dark/x.svg",
-                light: "../src/assets/social/light/x.svg",
+                dark: "../src/assets/social/dark/fb.svg",
+                light: "../src/assets/social/light/fb.svg",
             }
-        }
+        },
+        {
+            title: "Instagram",
+            url: "https://google.com",
+            alt: "X logo",
+            images: {
+                dark: "../src/assets/social/dark/ig.svg",
+                light: "../src/assets/social/light/ig.svg",
+            }
+        },
+        {
+            title: "LinkedIn",
+            url: "https://google.com",
+            alt: "X logo",
+            images: {
+                dark: "../src/assets/social/dark/lin.svg",
+                light: "../src/assets/social/light/lin.svg",
+            }
+        },
+        {
+            title: "Youtube",
+            url: "https://google.com",
+            alt: "X logo",
+            images: {
+                dark: "../src/assets/social/dark/yt.svg",
+                light: "../src/assets/social/light/yt.svg",
+            }
+        },
     ],
     // Thank you for leaving this part and supporting my work
     support: {
