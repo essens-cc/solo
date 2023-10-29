@@ -1,13 +1,15 @@
 ---
 interface Props {
   title: string;
-  detail: string;
+  detail?: string;
+  url?: string;
 }
 
-const { title, detail } = Astro.props;
+const { title, detail, url } = Astro.props;
 ---
 
 <div class="w-full flex justify-between text-[24px] leading-tight">
   <p class="w-fit text-[#555]">{title}</p>
-  <p class="w-fit text-[#555] hidden md:inline">{detail}</p>
+  {detail && <p class="w-fit text-[#555] hidden md:inline">{detail}</p>}
+  {url && <a class="w-fit text-[#555] underline hover:no-underline" href={url} target="_blank">go ↗︎</a>}
 </div>

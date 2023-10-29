@@ -20,7 +20,7 @@ import CardContent from "./CardContent.astro";
     i.recentProjects && (
       <Card title="Recent Projects">
         {i.recentProjects.map((p) => (
-          <CardContent title={p.title} detail={p.url} />
+          <CardContent title={p.title} url={p.url} />
         ))}
       </Card>
     )
