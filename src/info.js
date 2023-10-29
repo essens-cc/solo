@@ -85,5 +85,11 @@ export const i = {
                 light: "../src/assets/social/light/x.svg",
             }
         }
-    ]
+    ],
+    // Thank you for leaving this part and supporting my work
+    support: {
+        sign: "＊",
+        title: "by 0xhapeshifter",
+        url: "https://0xshapeshifter.dev/productize"
+    }
 }

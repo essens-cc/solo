@@ -3,16 +3,16 @@ import { i } from "../info";
 ---
 
 <footer
-  class="w-full h-full lg:flex justify-between space-y-4 lg:space-y-0 gap-4 text-[24px]"
+  class="w-full h-full block lg:flex justify-between space-y-4 lg:space-y-0 gap-4 text-[24px]"
 >
-  <button
-    class="p-4 text-center text-white bg-gradient w-full xl:text-center rounded-[24px]"
-    >{i.status}</button
+  <p class="p-4 text-center text-white bg-gradient w-full rounded-[24px]">
+    {i.status}
+  </p>
+  <p
+    class="p-4 text-center text-white dark:text-black bg-black dark:bg-white w-full rounded-[24px]"
   >
-  <button
-    class="p-4 text-center text-white dark:text-black bg-black dark:bg-white w-full xl:text-center rounded-[24px]"
-    >{i.email}</button
-  >
+    {i.email}
+  </p>
   <div
     class="w-full p-4 text-black dark:text-white border border-black dark:border-white rounded-[24px] flex justify-center items-center gap-2 md:gap-4"
   >
@@ -37,4 +37,17 @@ import { i } from "../info";
       ))
     }
   </div>
+  {
+    i.support && (
+      <a
+        href="https://0xshapeshifter.dev/productize"
+        class="p-4 text-center text-[#0070F3] border border-black dark:border-white w-full md:hover:w-full md:min-w-[64px] md:w-fit rounded-[24px] group flex justify-center items-center transition-transform"
+      >
+        {i.support.sign}
+        <span class="text-black dark:text-white md:hidden md:group-hover:inline-block">
+          {i.support.title}
+        </span>
+      </a>
+    )
+  }
 </footer>
