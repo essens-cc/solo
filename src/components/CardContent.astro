@@ -1,0 +1,13 @@
+---
+interface Props {
+  title: string;
+  detail: string;
+}
+
+const { title, detail } = Astro.props;
+---
+
+<div class="w-full flex justify-between text-[24px] leading-tight">
+  <p class="w-fit text-[#555]">{title}</p>
+  <p class="w-fit text-[#555] hidden md:inline">{detail}</p>
+</div>

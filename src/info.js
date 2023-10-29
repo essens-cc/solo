@@ -4,7 +4,7 @@ export const i = {
     occupation: "Digital Director",
     description: "Hi, I'm Jensen. I have over 10 years of experience as a digital director with a multidisciplinary background. My main goal is to create meaningful products that cause positive disruption.",
     status: "⚡︎ Open for remote/async offers",
-    email: "✉︎ jensen@jensenlakes.com",
+    email: "📧 jensen@jensenlakes.com",
     photo: "../src/assets/pic.png",
     featuredWork: [
         {

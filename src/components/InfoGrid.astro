@@ -1,0 +1,38 @@
+---
+import { i } from "../info";
+import Card from "./Card.astro";
+import CardContent from "./CardContent.astro";
+---
+
+<div
+  class="w-full h-full space-y-4 xl:space-y-0 xl:grid grid-cols-3 gap-4 text-[24px]"
+>
+  {
+    i.featuredWork && (
+      <Card title="Featured Work">
+        {i.featuredWork.map((w) => (
+          <CardContent title={w.title} detail={w.dates} />
+        ))}
+      </Card>
+    )
+  }
+  {
+    i.recentProjects && (
+      <Card title="Recent Projects">
+        {i.recentProjects.map((p) => (
+          <CardContent title={p.title} detail={p.url} />
+        ))}
+      </Card>
+    )
+  }
+
+{
+  i.recognition && (
+    <Card title="recognition">
+      {i.recognition.map((r) => (
+        <CardContent title={r.title} detail={r.date} />
+      ))}
+    </Card>
+  )
+}
+</div>

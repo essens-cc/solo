@@ -1,109 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
-
-
+import About from "../components/About.astro";
+import InfoGrid from "../components/InfoGrid.astro";
 ---
 
-<Layout title="Alpha template | by Shapeshifter" desc="Single-screen personal portfolio/cv template">
-
-
-    <!-- ABOUT -->
-    <div
-      class="w-full p-4 md:p-16 border border-black dark:border-white rounded-[24px] text-black dark:text-white"
-    >
-      <p class="m-auto text-[24px] md:text-[32px] w-full">
-        Hi, I'm Jensen. I have over 10 years of experience as a digital director
-        with a multidisciplinary background. My main goal is to create
-        meaningful products that cause positive disruption.
-      </p>
-    </div>
-
-    <!-- SELECTED -->
-    <!-- Grid -->
-    <div
-      class="w-full h-full space-y-4 xl:space-y-0 xl:grid grid-cols-3 gap-4 text-[24px]"
-    >
-      <!-- Card -->
-      <div
-        class="w-full h-full flex flex-col justify-center items-stretch gap-4 md:gap-8 p-4 md:p-8 border border-black dark:border-white rounded-[24px] text-black dark:text-white"
-      >
-        <div class="w-full h-full md:flex justify-between group transition-all">
-          <p
-            class="text-black dark:text-white w-fit uppercase px-4 py-1 border border-black dark:border-white rounded-full cursor-pointer"
-          >
-            featured work
-          </p>
-        </div>
-        <div class="w-full h-full flex flex-col items-center justify-center">
-          <div class="w-full md:flex justify-between text-[24px] leading-tight">
-            <p class="w-full text-[#555]">Design Production</p>
-            <p class="w-fit text-[#555] hidden lg:inline">2023</p>
-          </div>
-          <div class="w-full md:flex justify-between text-[24px] leading-tight">
-            <p class="w-full text-[#555]">Design Production</p>
-            <p class="w-fit text-[#555] hidden lg:inline">2023</p>
-          </div>
-          <div class="w-full md:flex justify-between text-[24px] leading-tight">
-            <p class="w-full text-[#555]">Design Production</p>
-            <p class="w-fit text-[#555] hidden lg:inline">2023</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card -->
-      <div
-        class="w-full h-full flex flex-col justify-center items-stretch gap-4 md:gap-8 p-4 md:p-8 border border-black dark:border-white rounded-[24px] text-black dark:text-white"
-      >
-        <div class="w-full h-full md:flex justify-between group transition-all">
-          <p
-            class="text-black dark:text-white w-fit uppercase px-4 py-1 border border-black dark:border-white rounded-full cursor-pointer"
-          >
-            projects
-          </p>
-        </div>
-        <div class="w-full h-full flex flex-col items-center justify-center">
-          <div class="w-full md:flex justify-between text-[24px] leading-tight">
-            <p class="w-full text-[#555]">Design Production</p>
-            <p class="w-fit text-[#555] hidden lg:inline">2023</p>
-          </div>
-          <div class="w-full md:flex justify-between text-[24px] leading-tight">
-            <p class="w-full text-[#555]">Design Production</p>
-            <p class="w-fit text-[#555] hidden lg:inline">2023</p>
-          </div>
-          <div class="w-full md:flex justify-between text-[24px] leading-tight">
-            <p class="w-full text-[#555]">Design Production</p>
-            <p class="w-fit text-[#555] hidden lg:inline">2023</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card -->
-      <div
-        class="w-full h-full flex flex-col justify-center items-stretch gap-4 md:gap-8 p-4 md:p-8 border border-black dark:border-white rounded-[24px] text-black dark:text-white"
-      >
-        <div class="w-full h-full md:flex justify-between group transition-all">
-          <p
-            class="text-black dark:text-white w-fit uppercase px-4 py-1 border border-black dark:border-white rounded-full cursor-pointer"
-          >
-            recogitions
-          </p>
-        </div>
-        <div class="w-full h-full flex flex-col items-center justify-center">
-          <div class="w-full md:flex justify-between text-[24px] leading-tight">
-            <p class="w-full text-[#555]">Design Production</p>
-            <p class="w-fit text-[#555] hidden lg:inline">2023</p>
-          </div>
-          <div class="w-full md:flex justify-between text-[24px] leading-tight">
-            <p class="w-full text-[#555]">Design Production</p>
-            <p class="w-fit text-[#555] hidden lg:inline">2023</p>
-          </div>
-          <div class="w-full md:flex justify-between text-[24px] leading-tight">
-            <p class="w-full text-[#555]">Design Production</p>
-            <p class="w-fit text-[#555] hidden lg:inline">2023</p>
-          </div>
-        </div>
-      </div>
-    </div>
- 
-
+<Layout
+  title="Alpha template | by Shapeshifter"
+  desc="Single-screen personal portfolio/cv template"
+>
+  <About />
+  <InfoGrid />
 </Layout>
