@@ -1,0 +1,40 @@
+---
+import { i } from "../info";
+---
+
+<header
+  class="w-full flex flex-col lg:flex-row gap-8 md:gap-0 lg:justify-between lg:items-center bg-gradient-to-tr from-[#0052D4] via-[#4364F7] to-[#6FB1FC] rounded-[24px] p-4 md:p-16 text-black dark:text-white"
+>
+  {
+    i.photo && (
+      <img
+        class="block lg:hidden"
+        width="256"
+        height="256"
+        src={i.photo}
+        alt="My photo"
+      />
+    )
+  }
+  <div class="space-y-4 md:space-y-4">
+    <h1 class="text-5xl lg:text-8xl text-white">
+      {i.firstName + " " + i.secondName}
+    </h1>
+    <p
+      class="w-fit uppercase px-4 py-2 border border-white text-white rounded-full text-base md:text-[24px]"
+    >
+      digital director
+    </p>
+  </div>
+  {
+    i.photo && (
+      <img
+        class="hidden lg:block"
+        width="256"
+        height="256"
+        src={i.photo}
+        alt="My photo"
+      />
+    )
+  }
+</header>

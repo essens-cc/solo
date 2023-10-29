@@ -2,41 +2,12 @@
 import Layout from "../layouts/Layout.astro";
 
 
-const socialdark = ["/src/assets/social/dark/x.svg", "/src/assets/social/dark/mt.svg", "/src/assets/social/dark/lin.svg", "/src/assets/social/dark/ig.svg", "/src/assets/social/dark/tg.svg", "/src/assets/social/dark/yt.svg"];
-const sociallight = ["/src/assets/social/light/x.svg", "/src/assets/social/light/mt.svg", "/src/assets/social/light/lin.svg", "/src/assets/social/light/ig.svg", "/src/assets/social/light/tg.svg", "/src/assets/social/light/yt.svg"];
 ---
 
 <Layout title="Alpha template | by Shapeshifter" desc="Single-screen personal portfolio/cv template">
   <div
     class="h-full w-full bg-white dark:bg-black flex flex-col justify-start items-center gap-8 px-4"
   >
-    <!-- HEADER -->
-    <div
-      class="w-full flex flex-col lg:flex-row gap-8 md:gap-0 lg:justify-between lg:items-center bg-gradient-to-tr from-[#0052D4] via-[#4364F7] to-[#6FB1FC] rounded-[24px] p-4 md:p-16 text-black dark:text-white"
-    >
-      <img
-        class="block md:hidden"
-        width="128"
-        height="128"
-        src="/src/assets/pic.png"
-        alt="A description of my img."
-      />
-      <div class="space-y-4 md:space-y-4">
-        <h1 class="text-5xl lg:text-8xl text-white">Jensen Lakes</h1>
-        <p
-          class="w-fit uppercase px-4 py-2 border border-white text-white rounded-full text-base md:text-[24px]"
-        >
-          digital director
-        </p>
-      </div>
-      <img
-        class="hidden md:block"
-        width="256"
-        height="256"
-        src="/src/assets/pic.png"
-        alt="A description of my img."
-      />
-    </div>
 
     <!-- ABOUT -->
     <div
@@ -136,7 +107,7 @@ const sociallight = ["/src/assets/social/light/x.svg", "/src/assets/social/light
       </div>
     </div>
     <!-- FOOTER -->
-    <div
+    <!-- <div
       class="w-full h-full lg:flex justify-between space-y-4 lg:space-y-0 gap-4 text-[24px]"
     >
       <button
@@ -181,6 +152,6 @@ const sociallight = ["/src/assets/social/light/x.svg", "/src/assets/social/light
          
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </Layout>

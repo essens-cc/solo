@@ -1,13 +1,15 @@
 import xDark from "./assets/social/dark/x.svg"
 import xLight from "./assets/social/light/x.svg"
+import pic from "../src/assets/pic.png"
 
-export const info = {
+export const i = {
     firstName: "Jensen",
     secondName: "Lakes",
     occupation: "Digital Director",
     description: "Hi, I'm Jensen. I have over 10 years of experience as a digital director with a multidisciplinary background. My main goal is to create meaningful products that cause positive disruption.",
     status: "⚡︎ Open for remote/async offers",
     email: "✉︎ jensen@jensenlakes.com",
+    photo: "../src/assets/pic.png",
     featuredWork: [
         {
             title: "Company X",
