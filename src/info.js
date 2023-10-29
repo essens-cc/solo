@@ -1,7 +1,3 @@
-import xDark from "./assets/social/dark/x.svg"
-import xLight from "./assets/social/light/x.svg"
-import pic from "../src/assets/pic.png"
-
 export const i = {
     firstName: "Jensen",
     secondName: "Lakes",
@@ -56,15 +52,37 @@ export const i = {
         {
             title: "X",
             url: "https://google.com",
+            alt: "X logo",
             images: {
-                dark: {
-                    src: xDark,
-                    alt: "X logo"
-                },
-                light: {
-                    src: xLight,
-                    alt: "X logo"
-                }
+                dark: "../src/assets/social/dark/x.svg",
+                light: "../src/assets/social/light/x.svg",
+            }
+        },
+        {
+            title: "X",
+            url: "https://google.com",
+            alt: "X logo",
+            images: {
+                dark: "../src/assets/social/dark/x.svg",
+                light: "../src/assets/social/light/x.svg",
+            }
+        },
+        {
+            title: "X",
+            url: "https://google.com",
+            alt: "X logo",
+            images: {
+                dark: "../src/assets/social/dark/x.svg",
+                light: "../src/assets/social/light/x.svg",
+            }
+        },
+        {
+            title: "X",
+            url: "https://google.com",
+            alt: "X logo",
+            images: {
+                dark: "../src/assets/social/dark/x.svg",
+                light: "../src/assets/social/light/x.svg",
             }
         }
     ]

@@ -1,0 +1,40 @@
+---
+import { i } from "../info";
+---
+
+<footer
+  class="w-full h-full lg:flex justify-between space-y-4 lg:space-y-0 gap-4 text-[24px]"
+>
+  <button
+    class="p-4 text-white bg-gradient-to-tr from-[#0052D4] via-[#4364F7] to-[#6FB1FC] w-full text-start xl:text-center rounded-[24px]"
+    >{i.status}</button
+  >
+  <button
+    class="p-4 text-white dark:text-black bg-black dark:bg-white w-full text-start xl:text-center rounded-[24px]"
+    >{i.email}</button
+  >
+  <div
+    class="w-full p-4 text-black dark:text-white border border-black dark:border-white rounded-[24px] flex justify-center items-center gap-2 md:gap-4"
+  >
+    {
+      i.socialMedia?.map((l) => (
+        <a href={l.url} target="_blank">
+          <img
+            width="32"
+            height="32"
+            src={l.images.dark}
+            alt={l.alt}
+            class="hidden dark:inline-block"
+          />
+          <img
+            width="32"
+            height="32"
+            src={l.images.light}
+            alt={l.alt}
+            class="inline-block dark:hidden"
+          />
+        </a>
+      ))
+    }
+  </div>
+</footer>
